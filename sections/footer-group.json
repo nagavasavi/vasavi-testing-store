@@ -1,0 +1,55 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "d4d78fcf-5235-4e2b-b6b9-decff0a9b0e0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Uni.png",
+            "image_width": 260,
+            "alignment": "center"
+          }
+        },
+        "41d51c12-ba28-4003-ad8d-12241645a2b6": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><\/p><h3>Start Exploring Now!<\/h3><p>Browse our collections and discover the perfect blend of quality and convenience. Shop with us today and experience the difference.<\/p>"
+          }
+        },
+        "675d7670-9588-4357-af96-ccc223aa25b0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "navigation-menu-header"
+          }
+        }
+      },
+      "block_order": [
+        "d4d78fcf-5235-4e2b-b6b9-decff0a9b0e0",
+        "41d51c12-ba28-4003-ad8d-12241645a2b6",
+        "675d7670-9588-4357-af96-ccc223aa25b0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 40,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

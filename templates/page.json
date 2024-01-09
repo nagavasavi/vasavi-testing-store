@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c9cbcce4-c210-4a7a-9313-5533829ef4cf": {
+      "type": "collage",
+      "blocks": {
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png"
+          }
+        },
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "ladies-hand-bag",
+            "second_image": false
+          }
+        },
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-image-1",
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-product-1",
+        "template--18266571505937__c9cbcce4-c210-4a7a-9313-5533829ef4cf-collection-1"
+      ],
+      "settings": {
+        "heading": "store",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "41f54f3f-f2ed-4496-a65f-878e4ee09d4d": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c9cbcce4-c210-4a7a-9313-5533829ef4cf",
+    "41f54f3f-f2ed-4496-a65f-878e4ee09d4d"
+  ]
+}

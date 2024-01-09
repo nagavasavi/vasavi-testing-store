@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+      }
+    },
+    "1695192400b80f466d": {
+      "type": "apps",
+      "blocks": {
+        "fbb88391-40b9-4757-a854-f8b40d61b09e": {
+          "type": "shopify:\/\/apps\/lensadvizor-select-lenses-app\/blocks\/app-block\/86552bcb-0c5c-439e-b59c-d8577012ea59",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fbb88391-40b9-4757-a854-f8b40d61b09e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "1695192400b80f466d"
+  ]
+}
