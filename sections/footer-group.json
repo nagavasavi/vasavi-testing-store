@@ -33,6 +33,7 @@
         "41d51c12-ba28-4003-ad8d-12241645a2b6",
         "675d7670-9588-4357-af96-ccc223aa25b0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-1",
         "newsletter_enable": true,

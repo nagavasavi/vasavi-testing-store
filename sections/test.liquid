@@ -1,0 +1,28 @@
+
+<h1 class="test-text">{{ section.settings.test_text }}</h1>
+
+ 
+  
+  
+<script src="{{ 'test.js' | asset_url }}" defer="defer"></script>
+
+
+{% schema %}
+{
+    "name": "Test Block",
+    "tag": "section",
+    "class": "section",
+    "settings": [ 
+    {
+        "type": "text",
+        "id": "test_text",
+        "label": "Enter text"
+      }
+],
+"presets": [
+        {
+        "name": "Test Block"
+        }
+    ]
+}
+{% endschema %}

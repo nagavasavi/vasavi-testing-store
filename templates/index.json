@@ -1,5 +1,11 @@
 {
   "sections": {
+    "test_d4f3wH": {
+      "type": "test",
+      "settings": {
+        "test_text": "Testing store"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -34,6 +40,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_6.png",
         "image_overlay_opacity": 30,
@@ -49,6 +56,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -110,6 +118,7 @@
         "template--18266571407633__abb8cd96-c50a-425a-bab4-53ba0f645cb0-column-2",
         "template--18266571407633__abb8cd96-c50a-425a-bab4-53ba0f645cb0-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
@@ -129,6 +138,7 @@
     },
     "609e9209-52c3-4323-a96c-e6a48855fb0b": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -181,6 +191,7 @@
         "template--18266571407633__2d2296da-3886-4543-8ddd-99b99844f8ee-row-2",
         "template--18266571407633__2d2296da-3886-4543-8ddd-99b99844f8ee-row-3"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -199,6 +210,7 @@
     }
   },
   "order": [
+    "test_d4f3wH",
     "image_banner",
     "featured_collection",
     "abb8cd96-c50a-425a-bab4-53ba0f645cb0",
