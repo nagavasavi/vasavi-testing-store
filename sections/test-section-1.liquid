@@ -1,0 +1,28 @@
+{{ 'test.css' | asset_url | stylesheet_tag }}
+<h1 class="test-text">{{ section.settings.test_text }}</h1>
+<div class="parent">
+    <div class="inner_circle"> </div>
+    <div class="outer_circle"> </div>
+  </div>
+
+
+
+{% schema %}
+{
+    "name": "Page-Test Block 1",
+    "tag": "section",
+    "class": "section",
+    "settings": [ 
+    {
+        "type": "text",
+        "id": "test_text",
+        "label": "Enter text"
+      }
+],
+"presets": [
+        {
+        "name": "Page Test Block 1"
+        }
+    ]
+}
+{% endschema %}

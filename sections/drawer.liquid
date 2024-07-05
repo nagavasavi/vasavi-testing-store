@@ -1,0 +1,26 @@
+<section class="drawer" id="drawer-name" data-drawer-target>
+    <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
+    <div class="drawer__wrapper">
+      <div class="drawer__header">
+        <div class="drawer__title">
+          Cart
+        </div>
+        <button class="drawer__close" data-drawer-close aria-label="Close Drawer"></button>
+      </div>
+      <div class="drawer__content">
+       <div id = "drawer_cart_items"> </div>
+       <div id = "drawer_cart_bottom"> 
+            <h4>Total amount: <span id= "drawer_total_amount"></span></h4>
+            <a href="/checkout" class="cart__continue-btn"> Checkout </a>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+      fetch('/cart.js')
+      .then((resp) => resp.json())
+      .then((data) => {
+          console.log(data);
+      });
+  </script>

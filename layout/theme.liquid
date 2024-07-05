@@ -236,9 +236,12 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+    {{ 'drawer.css' | asset_url | stylesheet_tag }}
+    {{ 'drawer.js' | asset_url | script_tag }}
   </head>
 
   <body class="gradient">
+    {% section 'drawer' %}
 {% include 'agechecker' %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
@@ -291,8 +294,13 @@
       }
     </script>
 
+    <script src="{{ 'test-cart.js' | asset_url }}" defer="defer"></script>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{'vendors.js' | asset_url }}" defer></script>
+  <script src="{{'global.js' | asset_url }}" defer></script>
+  <script src="{{'shared.js' | asset_url }}" defer></script>
+  <script src="{{'section.js' | asset_url }}" defer></script>
   </body>
 </html>
