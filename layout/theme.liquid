@@ -298,5 +298,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{'vendors.js' | asset_url }}" defer></script>
+  <script src="{{'global.js' | asset_url }}" defer></script>
+  <script src="{{'shared.js' | asset_url }}" defer></script>
+  <script src="{{'section.js' | asset_url }}" defer></script>
   </body>
 </html>
