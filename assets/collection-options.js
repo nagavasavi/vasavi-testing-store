@@ -6,53 +6,14 @@
 /*!*******************************************!*\
   !*** ./js/sections/collection-options.js ***!
   \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
 /* harmony import */ var JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! JsComponents/react-wrapper */ "./js/components/react-wrapper.js");
 /* harmony import */ var ReactComponents_collection_selector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ReactComponents/collection-selector */ "./js/components/react/collection-selector.js");
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = (() => {
   (0,JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__["default"])(ReactComponents_collection_selector__WEBPACK_IMPORTED_MODULE_1__["default"], 'collection-selector', '#collection-data');
-});
-
-/***/ }),
-
-/***/ "./js/sections/sample.js":
-/*!*******************************!*\
-  !*** ./js/sections/sample.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! JsComponents/react-wrapper */ "./js/components/react-wrapper.js");
-/* harmony import */ var ReactComponents_sample__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ReactComponents/sample */ "./js/components/react/sample.js");
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  (0,JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__["default"])(ReactComponents_sample__WEBPACK_IMPORTED_MODULE_1__["default"], 'sample-data', '#sample-data');
-});
-
-/***/ }),
-
-/***/ "./js/sections/section.js":
-/*!********************************!*\
-  !*** ./js/sections/section.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-/* harmony import */ var _sample__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sample */ "./js/sections/sample.js");
-/* harmony import */ var _collection_options__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collection-options */ "./js/sections/collection-options.js");
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  (0,_sample__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  (0,_collection_options__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
 
 /***/ })
@@ -180,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"section": 0
+/******/ 			"collection-options": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -230,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors","shared"], () => (__webpack_require__("./js/sections/section.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors","shared"], () => (__webpack_require__("./js/sections/collection-options.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
