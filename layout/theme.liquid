@@ -238,6 +238,12 @@
     </script>
     {{ 'drawer.css' | asset_url | stylesheet_tag }}
     {{ 'drawer.js' | asset_url | script_tag }}
+    <script>
+      const shopifyVariables = {
+        "collectionHandle": "{{ collection.handle}}"
+      }
+      window.shopifyVariables = shopifyVariables;
+  </script>
   </head>
 
   <body class="gradient">

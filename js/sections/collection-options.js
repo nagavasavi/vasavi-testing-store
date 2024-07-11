@@ -1,5 +1,5 @@
 import reactWrapper from "JsComponents/react-wrapper";
-import CollectionSelector from "ReactComponents/collection-selector";
+import CollectionSelector from "JsComponents/react/collection-selector"
 
 
 export default () => {

@@ -1,19 +1,21 @@
 import React, { useEffect, useState } from "react";
+import { getCollectionData } from "./coll-data";
 
-export default ({ shopifyData }) => {
-   console.log(shopifyData)
-    const { variants } = shopifyData.data;
-    const { collections } = shopifyData.data;
-    console.log(variants,'variants');
-    console.log(collections,'collections');           
+export default () => {
+  const [fetchedProduct, setFetchedProduct] = useState(null);
+  const fetchData = async () => {
+    setFetchedProduct(await getCollectionData());
+  };
+  useEffect(() => {
+    fetchData();
+  }, []);
+       
     
     return (
       
           <>
             <div className="collection-container__opt-label">Featured products</div>
-            <div className="collection-container__coll-title">
-          
-            </div>
+            <div className="collection-container__coll-title">{fetchedProduct && fetchedProduct.title}</div>
           </>
         
         

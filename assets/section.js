@@ -12,11 +12,11 @@
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! JsComponents/react-wrapper */ "./js/components/react-wrapper.js");
-/* harmony import */ var ReactComponents_collection_selector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ReactComponents/collection-selector */ "./js/components/react/collection-selector.js");
+/* harmony import */ var JsComponents_react_collection_selector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! JsComponents/react/collection-selector */ "./js/components/react/collection-selector.js");
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
-  (0,JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__["default"])(ReactComponents_collection_selector__WEBPACK_IMPORTED_MODULE_1__["default"], 'collection-selector', '#collection-data');
+  (0,JsComponents_react_wrapper__WEBPACK_IMPORTED_MODULE_0__["default"])(JsComponents_react_collection_selector__WEBPACK_IMPORTED_MODULE_1__["default"], 'collection-selector', '#collection-data');
 });
 
 /***/ }),
