@@ -31,6 +31,8 @@
   }
 {%- endstyle -%}
 
+
+
 <div class="section-{{ section.id }}-padding">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
@@ -103,6 +105,8 @@
       </form>
     </facet-filters-form>
   {%- endif -%}
+  
+  
 
   <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}
@@ -180,6 +184,10 @@
     </div>
   </div>
 </div>
+
+
+<collection-selector />
+
 
 {% schema %}
 {

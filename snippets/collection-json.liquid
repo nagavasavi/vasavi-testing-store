@@ -1,0 +1,20 @@
+{
+    "variants": [
+    {%- for variant in product.variants -%} 
+    {% unless forloop.first %} , {% endunless %} 
+        {
+            "id":"{{variant.id}}",
+            "name":"{{variant.title}}",
+            "price": "{{ variant.price | money }}"
+        }
+    {%- endfor -%}
+    ],
+    "collections":[
+    {%- for collection in product.collections -%} 
+    {% unless forloop.first %} , {% endunless %} 
+    {
+        "title":"{{collection.title}}"
+    }
+    {%- endfor -%}
+    ]
+}  

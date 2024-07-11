@@ -167,6 +167,13 @@
             <sample-data id="sample-data">
 
             </sample-data>
+              <collection-selector>
+                <script id="collection-data" type="text/json">
+                  {
+                    "data":{% render 'collection-json', product: product %}
+                  }
+                </script>
+              </collection-selector> 
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
